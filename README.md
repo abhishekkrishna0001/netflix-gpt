@@ -1,12 +1,34 @@
-# React + Vite
+- Header
+- Routing of the app
+- Login form
+- Sign up form
+- Form validation
+- useRef Hook
+- Firebase setup
+- Deploying our app to production
+- create Signup user account
+- implement sign in user api
+- created redux store with userSlice
+- Implemented sign out
+- Update profile
+- Bugfix: Sign up user displayname and profile picture update
+- Bugfix: If the user is logged in redirect /browse to login page and vice-versa.
+- unsubscribed to the onAuthStateChanged callback
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Features that we will build:
+* Netflix browse page(after authentication)\
+    - Header
+    - Main Movies
+        - Trailer in background
+        - Title and description
+    - Movie suggestions
+        - Movies list * n
+* Login/Sign up page
+    - sign in form
+    - sign up form
+    - redirect to browse page
+* Netflix GPT
+    - Search bar
+    - Movie suggestions
